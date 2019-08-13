@@ -1,5 +1,5 @@
 ### 1. stage: create build image
-FROM debian:stable AS coturn-build
+FROM debian:latest AS coturn-build
 
 ENV BUILD_PREFIX /usr/local/src
 
